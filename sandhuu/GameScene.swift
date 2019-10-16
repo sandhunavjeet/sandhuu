@@ -26,6 +26,7 @@ class GameScene: SKScene {
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {
             label.alpha = 0.0
+            abc
             label.run(SKAction.fadeIn(withDuration: 2.0))
         }
         
